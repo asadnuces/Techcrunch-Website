@@ -1,0 +1,60 @@
+.maincontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+.navsection {
+  display: flex;
+  // height: 100%;
+  width: 10%;
+  margin: 0 0 0 2rem;
+  padding-top: 1rem;
+
+  font-family: "Roboto Serif", sans-serif;
+  position: absolute;
+
+  &__navbar {
+    width: 100%;
+    flex-flow: wrap column;
+  }
+
+  &__mainimage {
+    width: 100%;
+
+    // padding: 1rem;
+  }
+
+  &__mainimagetext {
+    color: $vivid-orange;
+    display: flex;
+    font-size: 0.7rem;
+    margin: 1rem 0;
+  }
+
+  &__listitems {
+    // display: flex;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+      color: $bluish-gray;
+    }
+  }
+
+  &__ulist {
+    margin: 2rem 0;
+  }
+  &__list {
+    list-style-type: none;
+    padding-bottom: 0.6rem;
+    line-height: 1;
+
+    a {
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+  }
+}
